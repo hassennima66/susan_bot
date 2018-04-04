@@ -1,1 +1,1 @@
-# susan_bot
+# nimabot
