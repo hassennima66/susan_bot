@@ -6,8 +6,23 @@ bot.on('message', (message) => {
     }
 });
 
+bot.on('message', (message) => {
+    if(message.content == 'hi'){
+        message.reply('Demonetised!');   
+    }
+});
 
+bot.on('message', (message) => {
+    if(message.content == 'hello'){
+        message.reply('Demonetised!');   
+    }
+});
 
+bot.on('message', (message) => {
+    if(message.content == 'Hello'){
+        message.reply('Demonetised!');   
+    }
+});
 //
 bot.on('ready', () => { bot.user.setGame('Youtube: Demonetisation') })
 
