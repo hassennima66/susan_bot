@@ -43,7 +43,7 @@ bot.on('message', (message) => {
     if(message.content == '++demonetise'){
         message.channel.send({embed: {
         color: 15844367,
-        description: "A very simple Embed!"
+        description: "The chane that your video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "%"
 }});
     }
 });
