@@ -81,7 +81,7 @@ bot.on('message', (message) => {
           message.channel.send({embed: {
         color: 15844367,
         description: "Would you like to be demonetised?"
-}});
+}})
 .then(() => {
   message.channel.awaitMessages(response => response.content === 'yes', {
     max: 1,
