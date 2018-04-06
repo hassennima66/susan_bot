@@ -24,7 +24,7 @@ bot.on('message', (message) => {
     }
 });
 //
-bot.on('ready', () => { bot.user.setGame('Youtube: Demonetisation', 'https://www.twitch.tv/maybenima') })
+bot.on('ready', () => { bot.user.setGame('Demonetising Ninja', 'https://www.twitch.tv/maybenima') })
 
 
 
