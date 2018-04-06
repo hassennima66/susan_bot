@@ -89,7 +89,11 @@ bot.on('message', (message) => {
     errors: ['time'],
   })
   .then((collected) => {
-      message.channel.send(`You have been demonetised as your response message was: ${collected.first().content}`);
+     // message.channel.send(`You have been demonetised as your response message was: ${collected.first().content}`);
+          message.channel.send({embed: {
+        color: 15844367,
+        description: "You have been demonetised, congratulations! :joy: "
+}})      
     })
     .catch(() => {
       message.channel.send('There was no response in 30 minutes, you have been demonetised anyway ;) ');
