@@ -31,6 +31,9 @@ bot.on('message', (message) => {
 });
 //
 
+
+
+/*
 bot.on('message', (message) => {
     if(message.content == '++cod'){
         var x = Math.floor((Math.random() * 100) + 1);
@@ -41,7 +44,18 @@ bot.on('message', (message) => {
          }});
     }
 });
+*/
 
+
+bot.on('message', (message) => {
+    if(message.content == '++cod'){
+        var x = Math.floor((Math.random() * 100) + 1);
+       message.channel.send({embed: {
+  color: 15844367,
+  description: "The chance that your video will be demonetised is " + x + "x"
+}});   
+    }
+});
 
 
 
