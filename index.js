@@ -78,18 +78,21 @@ bot.on('message', (message) => {
 */
 bot.on('message', (message) => {
     if(message.content == '++demonetiseme'){
-        message.channel.send('What tag would you like to see? This will await will be cancelled in 30 seconds. It will finish when you provide a message that goes through the filter the first time.')
+          message.channel.send({embed: {
+        color: 15844367,
+        description: "Would you like to be demonetised?"
+}});
 .then(() => {
-  message.channel.awaitMessages(response => response.content === 'test', {
+  message.channel.awaitMessages(response => response.content === 'yes', {
     max: 1,
     time: 30000,
     errors: ['time'],
   })
   .then((collected) => {
-      message.channel.send(`The collected message was: ${collected.first().content}`);
+      message.channel.send(`You have been demonetised as your response message was: ${collected.first().content}`);
     })
     .catch(() => {
-      message.channel.send('There was no collected message that passed the filter within the time limit!');
+      message.channel.send('There was no response in 30 minutes, you have been demonetised anyway ;) ');
     });
 });   
     }
