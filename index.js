@@ -30,6 +30,21 @@ bot.on('message', (message) => {
     }
 });
 //
+
+bot.on('message', (message) => {
+    if(message.content == '++cod'){
+        var x = Math.floor((Math.random() * 100) + 1);
+        //message.reply('you are roughly ' + x + '% gay');  
+        message.channel.send({embed: {
+           color: 3447003,
+           description: "The chane that your video will be demonetised is " + x + "%"
+         }});
+    }
+});
+
+
+
+
 bot.on('ready', () => { bot.user.setGame('Demonetising Ninja', 'https://www.twitch.tv/maybenima') })
 
 
