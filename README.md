@@ -1,1 +1,1 @@
-# nimabot
+# Susan Bot
