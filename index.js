@@ -43,9 +43,6 @@ bot.on('message', (message) => {
     if(message.content == '++demonetise'){
         var text = "The chance that your video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "%";
         message.channel.send({embed: {
-        "image": {
-            "url": "https://cdn.discordapp.com/attachments/387281775996698646/431902090072293385/Untitled.png"
-        }
         color: 15844367,
         description: text
 }});
