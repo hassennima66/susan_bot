@@ -33,6 +33,24 @@ bot.on('message', (message) => {
 
 
 
+bot.on('message', (message) => {
+    if(message.content == 'susan what are you doing right now?'){
+        message.reply('Hi, I am currently on Twitch removing all of Ninjas paid subscribers and removing ads from all of his streams, hopefully soon we will hear gun shots at Twitch HQ.');   
+    }
+});
+
+bot.on('message', (message) => {
+    if(message.content == '++demonetise'){
+        message.channel.send({embed: {
+        color: 15844367,
+        description: "A very simple Embed!"
+}});
+    }
+});
+
+
+
+//
 /*
 bot.on('message', (message) => {
     if(message.content == '++cod'){
