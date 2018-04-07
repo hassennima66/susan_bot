@@ -109,6 +109,17 @@ if (message.includes('youtube.com' , 'youtu.be' , 'watch?v=')
  */
 
 
+
+
+bot.on('message', (message) => {
+   if(message.indexOf("youtube.com") > -1) {
+      message.channel.send('You have made me demonetise that video, congratulations fool! :joy: ');
+
+}
+});
+
+
+
 bot.on('ready', () => { bot.user.setGame('Demonetising Ninja', 'https://www.twitch.tv/maybenima') })
 
 
