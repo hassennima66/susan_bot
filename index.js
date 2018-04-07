@@ -103,6 +103,12 @@ bot.on('message', (message) => {
 });
 
 
+bot.on("message", (message) => {
+if (message.includes('youtube.com' , 'youtu.be' , 'watch?v=')
+       message.channel.send({embed: {
+        color: 15844367,
+        description: "You have made me demonetise that video, congratulations fool! :joy: "
+}})      
 
 
 bot.on('ready', () => { bot.user.setGame('Demonetising Ninja', 'https://www.twitch.tv/maybenima') })
