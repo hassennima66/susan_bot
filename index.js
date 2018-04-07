@@ -115,7 +115,6 @@ bot.on('message', (message) => {
    if(message.indexOf("youtube.com") > -1) {
       message.channel.send('You have made me demonetise that video, congratulations fool! :joy: ');
 
-}
 });
 
 
