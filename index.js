@@ -98,7 +98,7 @@ bot.on('message', (message) => {
     .catch(() => {
          message.channel.send({embed: {
         color: 15844367,
-        description: "There was no response in 30 seconds, you have been demonetised anyway :point_right: :joy: :point_right: "
+        description: "There was no response in 30 seconds, you have been demonetised anyway mate!!! :point_right: :joy: :point_right: "
 }})      
    //   message.channel.send('There was no response in 30 seconds, you have been demonetised anyway mate!!!  :point_right: :joy: :point_right: ');
     });
