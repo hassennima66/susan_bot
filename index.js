@@ -88,21 +88,6 @@ bot.on('message', (message) => {
     time: 30000,
     errors: ['time'],
   })
-  message.channel.awaitMessages(response => response.content === 'Yes', {
-    max: 1,
-    time: 30000,
-    errors: ['time'],
-  })
-  message.channel.awaitMessages(response => response.content === 'no', {
-    max: 1,
-    time: 30000,
-    errors: ['time'],
-  })
-  message.channel.awaitMessages(response => response.content === 'No', {
-    max: 1,
-    time: 30000,
-    errors: ['time'],
-  })
   .then((collected) => {
      // message.channel.send(`You have been demonetised as your response message was: ${collected.first().content}`);
           message.channel.send({embed: {
