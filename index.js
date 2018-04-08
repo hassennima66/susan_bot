@@ -52,19 +52,6 @@ bot.on('message', (message) => {
 
 
 
-bot.on('message', (message) => {
-    if(message.content == '++demonetise'){
-    var text11 = "The chance that" + ${member.user.tag} +"'s video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "%";
-        message.channel.send({embed: {
-        color: 15844367,
-        description: text11
-}});
-  
-   // message.reply(`${member.user.tag} has been demonetised by ${message.author.tag} because: ${reason}`);
-
-
-});
- 
    
 
 
