@@ -53,19 +53,14 @@ bot.on('message', (message) => {
 
 
 bot.on('message', (message) => {
-    if(message.content == '++demonetiseuser'){
-       
-    let member = message.mentions.members.first();
-    if(!member)
-      return message.reply("Please mention a valid member of this server");
-    if(!member.bannable) 
-      return message.reply("I cannot ban this user! Do they have a higher role? Do I have ban permissions?");
-
-    let reason = args.slice(1).join(' ');
-    if(!reason) reason = "No reason provided";
-    
+    if(message.content == '++demonetise'){
+    var text11 = "The chance that" + ${member.user.tag} +"'s video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "%";
+        message.channel.send({embed: {
+        color: 15844367,
+        description: text11
+}});
   
-    message.reply(`${member.user.tag} has been demonetised by ${message.author.tag} because: ${reason}`);
+   // message.reply(`${member.user.tag} has been demonetised by ${message.author.tag} because: ${reason}`);
 
 
 });
