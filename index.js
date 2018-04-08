@@ -83,7 +83,7 @@ bot.on('message', (message) => {
         description: "Would you like to be demonetised?"
 }})
 .then(() => {
-  message.channel.awaitMessages(response => response.content === 'yes', {
+  message.channel.awaitMessages(response => response.content.toLowerCase() === 'yes', {
     max: 1,
     time: 30000,
     errors: ['time'],
