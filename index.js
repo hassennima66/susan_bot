@@ -152,8 +152,8 @@ bot.on('message', (message) => {
 
 
     // message.channel.send('You have made me demonetise that video, congratulations fool! :joy: ');
-
-bot.on('ready', () => { bot.user.setGame('Demonetising ' + len(self.bot.servers) +  ' servers', 'https://www.twitch.tv/maybenima') })
+status = 'Demonetising ' + len(self.bot.servers) +  ' servers';
+bot.on('ready', () => { bot.user.setGame(status, 'https://www.twitch.tv/maybenima') })
 
 
 
