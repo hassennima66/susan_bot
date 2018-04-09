@@ -5,10 +5,10 @@ const mysql = require("mysql");
 
 
 var con = mysql.createConnection({
-  host: process.env.host,
-  user: process.env.username,
-  password: process.env.password,
-  database: process.env.database
+  host: process.env.H0ST,
+  user: process.env.USERNAME1,
+  password: process.env.PASSW0RD,
+  database: process.env.DATABASE1
 });
 
 con.connect(err => {
