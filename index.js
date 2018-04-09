@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const sql = require("sqlite");
+/* const sql = require("sqlite");
 sql.open("./score.sqlite");
 
 
@@ -24,7 +24,7 @@ bot.on("message", message => {
   });
 });
 
-
+*/
 
 
 
