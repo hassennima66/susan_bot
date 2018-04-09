@@ -194,7 +194,7 @@ bot.on('message', (message) => {
       
       if (meme == 5) {
    message.channel.send("Here, take a susan meme:", {
-            file: "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/30/12/enhanced/webdr02/enhanced-9903-1414686189-10.jpg?downsize=715:*&output-format=auto&output-quality=auto" 
+            file: "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/30/12/enhanced/webdr02/enhanced-9903-1414686189-10.jpg" 
              });
 }
       
