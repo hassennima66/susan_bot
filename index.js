@@ -220,12 +220,13 @@ bot.on('message', (message) => {
 
 
 bot.on('message', (message) => {
-    if(message.content.contains == 'y'){
-        message.reply('xd');   
-    }
+    if (message.content.indexOf("youtube.com") !=-1) {
+         message.channel.send({embed: {
+        color: 15844367,
+        description: "Ha! You just caused that video to be demonetised! :clap: "
+}})
+}
 });
-
-
 
 
 
