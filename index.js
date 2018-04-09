@@ -64,7 +64,15 @@ bot.on('message', (message) => {
 });
 
 
-
+bot.on('message', (message) => {
+    if(message.content == '++invite'){
+       var text11 = "Invite Susan To You Server Using This Link: <https://discordapp.com/oauth2/authorize?client_id=431045404516417537&scope=bot&permissions=3533888>";
+        message.channel.send({embed: {
+        color: 15844367,
+        description: text11
+}});
+    }
+});
 
 
 
