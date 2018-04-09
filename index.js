@@ -219,6 +219,21 @@ bot.on('message', (message) => {
 
 
 
+bot.on('message', (message) => {
+    if(message.content.contains == 'y'){
+        message.reply('xd');   
+    }
+});
+
+
+
+
+
+
+
+
+
+
 
 bot.on('message', function(message) {
     // Now, you can use the message variable inside
