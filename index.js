@@ -165,7 +165,7 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == '++meme'){
-        var meme = "The chance that your video will be demonetised is " + Math.floor((Math.random() * 10) + 1) + "%";
+        var meme = "The chance that your video will be demonetised is " + Math.floor((Math.random() * 8) + 1) + "%";
        
       
       
@@ -174,18 +174,47 @@ bot.on('message', (message) => {
             file: "https://cdn.discordapp.com/attachments/406440957148397579/432982562831466496/demonetizer.jpg" 
              });
 }
+       if (meme == 2) {
+   message.channel.send("Here, take a susan meme:", {
+            file: "https://cdn.discordapp.com/attachments/406440957148397579/432982701444694026/susan-no-ads-and-ads.png" 
+             });
+}
+      
+        if (meme == 3) {
+   message.channel.send("Here, take a susan meme:", {
+            file: "https://cdn.discordapp.com/attachments/406440957148397579/432982896253337601/meme-1.png" 
+             });
+}
+      
+       if (meme == 4) {
+   message.channel.send("Here, take a susan meme:", {
+            file: "https://cdn.discordapp.com/attachments/406440957148397579/432982269137911808/DEMONETIZED-CHANGE-MY-MIND.jpg" 
+             });
+}
+      
+      if (meme == 5) {
+   message.channel.send("Here, take a susan meme:", {
+            file: "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/30/12/enhanced/webdr02/enhanced-9903-1414686189-10.jpg?downsize=715:*&output-format=auto&output-quality=auto" 
+             });
+}
+      
+      if (meme == 6) {
+   message.channel.send("Here, take a susan meme:", {
+            file: "https://i.ytimg.com/vi/Vg4NJ_oyyL0/maxresdefault.jpg" 
+             });
+}
+      if (meme == 7) {
+   message.channel.send("Here, take a susan meme:", {
+            file: "https://i.imgur.com/p0L5nMt.png" 
+             });
+}
       
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+            if (meme == 8) {
+   message.channel.send("Here, take a susan meme:", {
+            file: "https://i.ytimg.com/vi/Ng-1gpPSKhU/0.jpg" 
+             });
+}
       
       
       
