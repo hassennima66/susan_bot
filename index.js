@@ -145,6 +145,80 @@ bot.on('message', (message) => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bot.on('message', (message) => {
+    if(message.content == '++meme'){
+        var meme = "The chance that your video will be demonetised is " + Math.floor((Math.random() * 10) + 1) + "%";
+       
+      
+      
+      if (meme == 1) {
+   message.channel.send("Here, take a susan meme:", {
+            file: "https://cdn.discordapp.com/attachments/406440957148397579/432982562831466496/demonetizer.jpg" 
+             });
+}
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //
 /*
 bot.on('message', (message) => {
