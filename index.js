@@ -167,7 +167,18 @@ bot.on('message', (message) => {
 
 
 
-    
+bot.on('message', function(message) {
+    // Now, you can use the message variable inside
+    if (message.content === "++updateservercount") { 
+        var interval = setInterval (function () {
+            // use the message's channel (TextChannel) to send a new message
+            bot.user.setGame('Demonetising ' +  bot.guilds.size + ' servers', 'https://www.twitch.tv/maybenima')
+            .catch(console.error); // add error handling here
+        }, 1 * 1000); 
+    }
+});    
+
+
 //status = 'Demonetising ' + len(self.bot.servers) +  ' servers';
 bot.on('ready', () => { bot.user.setGame('Demonetising ' +  bot.guilds.size + ' servers', 'https://www.twitch.tv/maybenima') })
 
