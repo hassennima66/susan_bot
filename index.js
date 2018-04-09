@@ -165,7 +165,7 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == '++meme'){
-        var meme = "The chance that your video will be demonetised is " + Math.floor((Math.random() * 8) + 1) + "%";
+        var meme = Math.floor((Math.random() * 8) + 1);
        
       
       
