@@ -220,7 +220,7 @@ bot.on('message', (message) => {
 
 
 bot.on('message', (message) => {
-    if (message.content.indexOf("youtube.com") !=-1) {
+    if (message.content.indexOf("youtube.com/watch") !=-1) {
          message.channel.send({embed: {
         color: 15844367,
         description: "Ha! You just caused that video to be demonetised! :clap: "
@@ -229,7 +229,14 @@ bot.on('message', (message) => {
 });
 
 
-
+bot.on('message', (message) => {
+    if (message.content.indexOf("youtu.be") !=-1) {
+         message.channel.send({embed: {
+        color: 15844367,
+        description: "Ha! You just caused that video to be demonetised! :clap: "
+}})
+}
+});
 
 
 
