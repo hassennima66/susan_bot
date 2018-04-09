@@ -53,7 +53,15 @@ bot.on('message', (message) => {
 
 
    
-
+bot.on('message', (message) => {
+    if(message.content == '++count'){
+        var text = len(self.bot.servers);
+        message.channel.send({embed: {
+        color: 15844367,
+        description: text
+}});
+    }
+});
 
 
 
