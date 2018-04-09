@@ -161,7 +161,7 @@ bot.on('message', (message) => {
 
     
 //status = 'Demonetising ' + len(self.bot.servers) +  ' servers';
-//bot.on('ready', () => { bot.user.setGame(status, 'https://www.twitch.tv/maybenima') })
+bot.on('ready', () => { bot.user.setGame('Demonetising ' +  bot.guilds.size + ' servers', 'https://www.twitch.tv/maybenima') })
 
 
 
