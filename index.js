@@ -167,6 +167,59 @@ bot.on('message', (message) => {
 
 
 
+
+
+
+
+
+
+bot.on('message', (message) => {
+    if(message.content == '++susanhelp'){
+        message.reply("Check your DM's or I demonetise you :smirk: "); 
+        message.author.sendMessage(`
+                                   
+                                   ***Demonetise Commands:***
+
+
+"++demonetise"
+
+"++demonetiseme"
+
+"++is flater gay"
+
+"++will i ever be a youtuber"
+
+
+***Others:***
+
+"Hi/hi/Hello/hello" - responds with a message about demonetising you
+
+"++invite" - responds with a link so you can invite susan to your server
+
+"++susanbot" - shows this message in the DM's
+
+"++count" - responds with the number of servers susan is demonetising
+
+"susan what are you doing right now?" - susan tells you what she's doing/demonetising
+
+***Created by Nima#0001 and Flater#0420***`)   
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 bot.on('message', function(message) {
     // Now, you can use the message variable inside
     if (message.content === "++updateservercount") { 
