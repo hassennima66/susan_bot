@@ -433,19 +433,16 @@ bot.on('message', (message) => {
        
         message.reply(`
                                    
-                                   ***Demonetise Commands:***
+***DEMONETISE COMMANDS:***
 
 
 "++demonetise"
 
 "++demonetiseme"
 
-"++is flater gay"
-
-"++will i ever be a youtuber"
 
 
-***Others:***
+***OTHERS:***
 
 "Hi/hi/Hello/hello" - responds with a message about demonetising you
 
