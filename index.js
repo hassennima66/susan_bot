@@ -1,9 +1,34 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
+
+
+
+var mysql = require('mysql');
+
+var con = mysql.createConnection({
+  host: process.env.H0ST,
+  user: process.env.USERNAME1,
+  password: process.env.PASSW0RD
+});
+
+con.connect(function(err) {
+  if (err) throw err;
+ 
+});
+
+
+
+
 /*
 
 const mysql = require("mysql");
+
+
+
+
+
+
 
 
 var host11 = process.env.H0ST;
