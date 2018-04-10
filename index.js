@@ -17,7 +17,20 @@ var con = mysql.createConnection({
 });
 
 
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+});
 
+
+
+
+
+
+
+
+
+/*
 con.connect(err => {
   if (err) throw err;
   console.log("Connected to database");
@@ -25,7 +38,7 @@ con.connect(err => {
 });
 
 
-/* const sql = require("sqlite");
+ const sql = require("sqlite");
 sql.open("./score.sqlite");
 
 
