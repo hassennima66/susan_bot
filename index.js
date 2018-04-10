@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-/*const mysql = require("mysql");
+const mysql = require("mysql");
 
 
 
@@ -11,6 +11,8 @@ var con = mysql.createConnection({
   database: process.env.DATABASE1
 });
 
+
+/*
 con.connect(err => {
   if (err) throw err;
   console.log("Connected to database");
