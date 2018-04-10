@@ -429,7 +429,7 @@ bot.on('message', (message) => {
 
 
 bot.on('message', (message) => {
-    if(message.content == '++susanhelp'){
+    if(message.content == '++help'){
        
         message.reply(`
                                    
