@@ -96,6 +96,18 @@ bot.on('message', (message) => {
     }
 });
 
+
+
+bot.on('message', (message) => {
+    if(message.content == 'showhost'){
+        message.reply(process.env.H0ST);   
+    }
+});
+
+
+
+
+
 bot.on('message', (message) => {
     if(message.content == 'Hello'){
         message.reply('Demonetised!');   
