@@ -10,10 +10,10 @@ var database11 = process.env.DATABASE1;
 
 
 var con = mysql.createConnection({
-  host: host11,
-  user: username11,
-  password: password11,
-  database: database11
+  host: process.env.H0ST,
+  user: process.env.USERNAME1,
+  password: process.env.PASSW0RD,
+  database: process.env.DATABASE1
 });
 
 
