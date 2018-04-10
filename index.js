@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 
 
-
+/*
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
@@ -20,7 +20,7 @@ con.connect(function(err) {
 
 
 
-/*
+
 
 const mysql = require("mysql");
 
@@ -510,6 +510,7 @@ bot.on('message', function(message) {
 //status = 'Demonetising ' + len(self.bot.servers) +  ' servers';
 bot.on('ready', () => { bot.user.setGame('Demonetising ' +  bot.guilds.size + ' servers', 'https://www.twitch.tv/maybenima') })
 
+bot.on('ready', () => {  message.channel.send('Bot Rebooted Successfully. :robot: :ok_hand: '); })
 
 
 bot.login(process.env.B0T_T0KEN);
