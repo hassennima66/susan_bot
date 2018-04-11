@@ -100,7 +100,11 @@ bot.on("message", message => {
 
 
 
-
+bot.on('message', (message) => {
+    if(message.content == '++tyrone'){
+        message.reply(':tyrone:');   
+    }
+});
 
 
 bot.on('message', (message) => {
