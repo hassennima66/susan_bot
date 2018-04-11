@@ -187,8 +187,6 @@ module.exports = new GenericCommand(
   {
     triggers: ['demon', 'dem'],
     description: 'rate how much you will be demonetised'
-  }
-)
 }});
     }
 });
