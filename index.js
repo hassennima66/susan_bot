@@ -403,10 +403,6 @@ bot.on('message', (message) => {
 
 "++demonetiseme"
 
-"++is flater gay"
-
-"++will i ever be a youtuber"
-
 
 ***Others:***
 
@@ -419,6 +415,8 @@ bot.on('message', (message) => {
 "++count" - responds with the number of servers susan is demonetising
 
 "susan what are you doing right now?" - susan tells you what she's doing/demonetising
+
+Bot is still work in progress as it is a new bot and we will be adding lots more to it in the future but for now enjoy what Susan has already!
 
 ***Created by Nima#0001 and Flater#0420***`)   
     }
@@ -453,6 +451,8 @@ bot.on('message', (message) => {
 "++count" - responds with the number of servers susan is demonetising
 
 "susan what are you doing right now?" - susan tells you what she's doing/demonetising
+
+Bot is still work in progress as it is a new bot and we will be adding lots more to it in the future but for now enjoy what Susan has already!
 
 ***Created by Nima#0001 and Flater#0420***`)   
     }
