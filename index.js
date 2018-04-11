@@ -164,29 +164,6 @@ bot.on('message', (message) => {
         message.channel.send({embed: {
         color: 15844367,
         description: text
-    }
-});
-
-
-
-module.exports = new GenericCommand(
-  async ({ msg, args }) => {
-    let target = !args[0] || args[0].toLowerCase() === 'me'
-      ? 'The chance that your video will be demonetised is'
-      : (
-        msg.mentions[0]
-          ? `${msg.mentions[0].nick || msg.mentions[0].username} is`
-          : `${args.join(' ')} is`
-      )
-    const rating = Math.floor(Math.random() * 100) + 1
-    return {
-      title: 'Demonetised rater',
-      description: `${target} ${rating}% demonetised <:demonetized:406094437236867072>`
-    }
-  },
-  {
-    triggers: ['demon', 'dem'],
-    description: 'rate how much you will be demonetised'
 }});
     }
 });
