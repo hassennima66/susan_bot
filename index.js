@@ -164,7 +164,6 @@ bot.on('message', (message) => {
         message.channel.send({embed: {
         color: 15844367,
         description: text
-}});
     }
 });
 
