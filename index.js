@@ -102,7 +102,7 @@ bot.on("message", message => {
 
 bot.on('message', (message) => {
     if(message.content == '++tyrone'){
-        message.reply(':tyrone:');   
+        message.reply('<:tyrone:406116209248043008>');   
     }
 });
 
