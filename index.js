@@ -160,6 +160,11 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == '++demonetise'){
+            : (
+        msg.mentions[0]
+          ? `${msg.mentions[0].nick || msg.mentions[0].username} is`
+          : `${args.join(' ')} is`
+      )
         var text = "The chance that your video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "% <:demonetized:406094437236867072>";
         message.channel.send({embed: {
         color: 15844367,
