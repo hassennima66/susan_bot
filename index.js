@@ -160,7 +160,7 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == '++demonetise'){
-        var text = "The chance that your video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "% <:demonetized:392647159813505036>";
+        var text = "The chance that your video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "% <:demonetized:406094437236867072>";
         message.channel.send({embed: {
         color: 15844367,
         description: text
@@ -174,7 +174,7 @@ bot.on('message', (message) => {
    
 bot.on('message', (message) => {
     if(message.content == '++count'){
-       var text = "Susan is currently in " + bot.guilds.size + " servers.";
+       var text = "I am currently demonetising " + bot.guilds.size + " servers. <:demonetized:406094437236867072>";
       bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers', 'https://www.twitch.tv/maybenima');
         message.channel.send({embed: {
         color: 15844367,
@@ -354,13 +354,13 @@ bot.on('message', (message) => {
      // message.channel.send(`You have been demonetised as your response message was: ${collected.first().content}`);
           message.channel.send({embed: {
         color: 15844367,
-        description: "You have been demonetised, congratulations! :joy: "
+        description: "You have been demonetised, congratulations! <:demonetized:406094437236867072> :joy: "
 }})      
     })
     .catch(() => {
          message.channel.send({embed: {
         color: 15844367,
-        description: "There was no response in 30 seconds, you have been demonetised anyway mate!!! :point_right: :joy: :point_right: "
+        description: "There was no response in 30 seconds, you have been demonetised anyway mate!!! <:demonetized:406094437236867072> :point_right: :joy: :point_right:<:demonetized:406094437236867072> "
 }})      
    //   message.channel.send('There was no response in 30 seconds, you have been demonetised anyway mate!!!  :point_right: :joy: :point_right: ');
     });
