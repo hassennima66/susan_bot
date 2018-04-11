@@ -416,7 +416,7 @@ bot.on('message', (message) => {
 
 "susan what are you doing right now?" - susan tells you what she's doing/demonetising
 
-*Bot is still work in progress as it is a new bot and we will be adding lots more to it in the future but for now enjoy what Susan has already!*
+**Bot is still work in progress as it is a new bot and we will be adding lots more to it in the future but for now enjoy what Susan has already!**
 
 ***Created by Nima#0001 and Flater#0420***`)   
     }
@@ -452,7 +452,7 @@ bot.on('message', (message) => {
 
 "susan what are you doing right now?" - susan tells you what she's doing/demonetising
 
-*Bot is still work in progress as it is a new bot and we will be adding lots more to it in the future but for now enjoy what Susan has already!*
+**Bot is still work in progress as it is a new bot and we will be adding lots more to it in the future but for now enjoy what Susan has already!**
 
 ***Created by Nima#0001 and Flater#0420***`)   
     }
