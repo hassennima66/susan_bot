@@ -170,7 +170,7 @@ bot.on('message', (message) => {
    
 bot.on('message', (message) => {
     if(message.content == '++count'){
-       var guildAmount = bot.guilds.size;
+       var text = "Susan is currently in "guildAmount = bot.guilds.size; "servers. "
         message.channel.send({embed: {
         color: 15844367,
         description: guildAmount
@@ -316,7 +316,7 @@ bot.on('message', (message) => {
         //message.reply('you are roughly ' + x + '% gay');  
         message.channel.send({embed: {
            color: 3447003,
-           description: "The chane that your video will be demonetised is " + x + "%"
+           description: "The chance that your video will be demonetised is " + x + "%"
          }});
     }
 });
