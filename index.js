@@ -510,7 +510,7 @@ bot.on('message', function(message) {
 
 
 //status = 'Demonetising ' + len(self.bot.servers) +  ' servers';
-bot.on('ready', () => { bot.user.setActivity('Demonetising ' +  bot.guilds.size + memberCount + ' servers', 'https://www.twitch.tv/maybenima') })
+bot.on('ready', () => { bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers', 'https://www.twitch.tv/maybenima') })
 
 
 bot.login(process.env.B0T_T0KEN);
