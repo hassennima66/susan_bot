@@ -170,7 +170,7 @@ bot.on('message', (message) => {
    
 bot.on('message', (message) => {
     if(message.content == '++count'){
-       var text "Susan is currently in "var guildAmount = bot.guilds.size;var text "servers. "
+       var guildAmount = ('Susan is currently in ' + bot.guilds.size; + 'servers.')
         message.channel.send({embed: {
         color: 15844367,
         description: guildAmount
