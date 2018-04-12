@@ -107,26 +107,26 @@ bot.on('message', (message) => {
       name: bot.user.username,
       icon_url: bot.user.avatarURL
     },
-    title: "This is an embed",
+    title: "Visit Official Site (Coming Soon)",
     url: "http://google.com",
-    description: "This is a test embed to showcase what they look like and what they can do.",
+    description: "Susan is a bot created for the sole purpose of demonetising creators on Discord.",
     fields: [{
-        name: "Fields",
-        value: "They can have different fields with small headlines."
+        name: "Credits",
+        value: "***Nima#0001 & Flater#0420***"
       },
       {
-        name: "Masked links",
-        value: "You can put [masked links](http://google.com) inside of rich embeds."
+        name: "Bot Command Prefix + Vote For Bot",
+        value: "Command Prefix is ++ (for example, ++help to show all possible commands.) You can [vote here.](https://discordbots.org/bot/431045404516417537/vote)"
       },
       {
-        name: "Markdown",
-        value: "You can put all the *usual* **__Markdown__** inside of them."
+        name: "Status",
+        value: "Bot is currently active in " + bot.guilds.size + " servers"
       }
     ],
     timestamp: new Date(),
     footer: {
       icon_url: bot.user.avatarURL,
-      text: "© Example"
+      text: "SusanBot Info "
     }
   }
 });
