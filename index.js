@@ -229,7 +229,7 @@ bot.on('message', (message) => {
 
 
 
-
+/*
 bot.on('message', (message) => {
     if (message.content.indexOf("++demonetiseuser") !=-1) {
 	var taggedmember = message.guild.members.get(args[0]);
@@ -241,7 +241,7 @@ bot.on('message', (message) => {
 }
 });
 
-
+*/
 
 
    
