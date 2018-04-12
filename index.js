@@ -260,7 +260,7 @@ bot.on('message', (message) => {
 */
 
 bot.on('message', (message) => {
-    if (message.content.indexOf("++demonetise @") !=-1) {
+    if (message.content.indexOf("++demonetise") !=-1) {
 		 if (message.content.length > 14) {
 		
 var taggedmember1 = message.mentions.members.first();
