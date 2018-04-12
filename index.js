@@ -688,6 +688,20 @@ bot.on('message', (message) => {
 });
 
 
+
+
+
+
+bot.on('message', (message) => {
+    if (message.content.indexOf("discord.gg") !=-1) {
+         message.channel.send({embed: {
+        color: 15844367,
+        description: "Ha! You just made me cause a shooting in that server! <a:lulslide:429416319662686211> "
+}})
+}
+});
+
+
 bot.on('message', function(message) {
     // Now, you can use the message variable inside
     if (message.content === "++updateservercount") { 
