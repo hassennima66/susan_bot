@@ -282,14 +282,14 @@ bot.on('message', (message) => {
       
             if (meme == 9) {
    message.channel.send("Here, take a susan meme:", {
-            file: "https://www.youtube.com/watch?v=ixvlu29qpvg" 
+            link: "https://www.youtube.com/watch?v=ixvlu29qpvg" 
              });
 }      
       
       
             if (meme == 10) {
    message.channel.send("Here, take a susan meme:", {
-            file: "https://www.youtube.com/watch?v=1DrYryh1oBU" 
+            link: "https://www.youtube.com/watch?v=1DrYryh1oBU" 
              });
 }      
       
