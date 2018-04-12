@@ -421,6 +421,8 @@ bot.on('message', (message) => {
 
 "Hi/hi/Hello/hello" - responds with a message about demonetising you
 
+"++meme" - responds with a Susan meme
+
 "++invite" - responds with a link so you can invite susan to your server
 
 "++susanbot" - shows this message in the DM's
@@ -456,6 +458,8 @@ bot.on('message', (message) => {
 ***OTHERS:***
 
 "Hi/hi/Hello/hello" - responds with a message about demonetising you
+
+"++meme" - responds with a Susan meme
 
 "++invite" - responds with a link so you can invite susan to your server
 
