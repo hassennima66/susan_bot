@@ -519,7 +519,7 @@ bot.on('message', (message) => {
     "author": {
       "name": "Susan Bot Commands",
       "url": "https://discordapp.com",
-      "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png"
+      "icon_url": "https://cdn.discordapp.com/icons/432878954660102156/84e09dd9ac1b240e93be0d4ca4a88aa5.png"
     },
     "fields": [
       {
