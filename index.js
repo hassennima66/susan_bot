@@ -226,16 +226,20 @@ bot.on('message', (message) => {
     }
 });
 
+
+
+
+
 bot.on('message', (message) => {
-    if(message.content == '++demonetiseuser'){
-     let taggedmember = message.guild.members.get(args[0]);
-        var text = "The chance that" + taggedmember + "'s video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "% <:demonetized:406094437236867072>";
-        message.channel.send({embed: {
+    if (message.content.indexOf("++demonetiseuser") !=-1) {
+		var text = "The chance that" + taggedmember + "'s video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "% <:demonetized:406094437236867072>";
+         message.channel.send({embed: {
         color: 15844367,
         description: text
-}});
-    }
+}}
+}
 });
+
 
 
 
@@ -447,10 +451,6 @@ bot.on('message', (message) => {
 });
 
 /*
-bot.on("message", (message) => {
-if (message.includes('youtube.com' , 'youtu.be' , 'watch?v=')
-      message.channel.send('You have made me demonetise that video, congratulations fool! :joy: ');
-
 
 
 
