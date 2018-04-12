@@ -228,7 +228,7 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == '++meme'){
-        var meme = Math.floor((Math.random() * 8) + 1);
+        var meme = Math.floor((Math.random() * 10) + 1);
        
       
       
