@@ -94,15 +94,11 @@ bot.on("message", message => {
 
 
 bot.on("guildCreate", (guild) => {
-	var text111 = "Thanks for adding me to this server, I will now work on demonetising it ;) ";
 	message.channel.send({embed: {
         color: 15844367,
-        description: text111
+        description: `Hi ${guild.name}!\nThanks for inviting me.`
 }});
-
-  
 });
-
 
 
 
