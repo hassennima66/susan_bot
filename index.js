@@ -499,6 +499,62 @@ bot.on('message', (message) => {
 */
 
 
+
+
+
+bot.on('message', (message) => {
+    if(message.content == '++help'){
+        message.channel.send({"embed": {
+    "color": 15844367,
+    "timestamp": "2018-04-12T11:42:53.008Z",
+    "footer": {
+      "text": "Susan Bot Help Command Requested at:"
+    },
+    "thumbnail": {
+      "url": "https://cdn.discordapp.com/emojis/406094437236867072.png?v=1"
+    },
+    "image": {
+      "url": "https://i.imgur.com/YrI7EJl.png"
+    },
+    "author": {
+      "name": "Susan Bot Commands",
+      "url": "https://discordapp.com",
+      "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png"
+    },
+    "fields": [
+      {
+        "name": "**Demonetise Commands**",
+        "value": "*++demonetise, ++demonetiseme*"
+      },
+      {
+        "name": "**Others:**",
+        "value": "Hi/hi/Hello/hello, susan what are you doing right now?, ++meme, ++invite, +count, +info, ++help, ++tyrone "
+      },
+      {
+        "name": "**Youtube Links**",
+        "value": "When a Youtube link is posted in the chat, you are show this:"
+      }
+
+    ]
+  }
+}
+        
+        
+        
+        );   
+    }
+});
+
+
+
+
+
+
+
+
+
+/*
+
 bot.on('message', (message) => {
     if(message.content == '++help'){
        
@@ -533,7 +589,7 @@ bot.on('message', (message) => {
     }
 });
 
-
+*/
 
 
 
