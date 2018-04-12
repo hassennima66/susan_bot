@@ -231,7 +231,7 @@ bot.on('message', (message) => {
     if (message.content.indexOf("++demonetiseuser") !=-1) {
 		//var taggedmember = message.guild.members.get(args[0]);
 		var taggedmember1 = message.mentions.members.first();
-		var text = "The chance that" + taggedmember1 + "'s video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "% <:demonetized:406094437236867072>";
+		var text = "The chance that " + taggedmember1 + "'s video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "% <:demonetized:406094437236867072>";
 		message.channel.send({embed: {
         color: 15844367,
         description: text
