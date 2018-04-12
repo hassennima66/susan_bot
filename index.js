@@ -227,6 +227,25 @@ bot.on('message', (message) => {
 });
 
 
+bot.on('message', (message) => {
+    if (message.content.indexOf("++demonetiseuser") !=-1) {
+		var taggedmember = message.guild.members.get(args[0]);
+		let member = message.mentions.members.first();
+		var text = "The chance that" + taggedmember + "'s video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "% <:demonetized:406094437236867072>";
+		message.channel.send({embed: {
+        color: 15844367,
+        description: text
+}})
+}
+});
+
+
+
+
+
+
+
+
 
 
 /*
@@ -622,6 +641,9 @@ bot.on('message', (message) => {
 });
 
 
+
+
+
 bot.on('message', (message) => {
     if (message.content.indexOf("youtu.be") !=-1) {
          message.channel.send({embed: {
@@ -630,10 +652,6 @@ bot.on('message', (message) => {
 }})
 }
 });
-
-
-
-
 
 
 bot.on('message', function(message) {
