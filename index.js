@@ -696,7 +696,7 @@ bot.on('message', (message) => {
     if (message.content.indexOf("discord.gg") !=-1) {
          message.channel.send({embed: {
         color: 15844367,
-        description: "Ha! You just made me cause a shooting in that server! <a:lulslide:429416319662686211>"
+        description: "Ha! You just made me cause a shooting in that server! <:bitconneee:409287324300738571> "
 }})
 }
 });
