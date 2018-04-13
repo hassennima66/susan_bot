@@ -291,6 +291,39 @@ taggedmember1 = message.mentions.members.first();
 
 
 
+bot.on('message', (message) => {
+    if (message.content.indexOf("++gay") !=-1) {
+		 if (message.content.length > 14) {
+		
+//var taggedmember1 = message.mentions.members.first();
+var taggedmember1 = "someone";
+taggedmember1 = message.mentions.members.first();
+
+		var text = taggedmember1 + " is " + Math.floor((Math.random() * 100) + 1) + "% gay :gay_pride_flag:";
+		message.channel.send({embed: {
+        color: 15844367,
+        description: text
+}});
+
+}
+}
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 bot.on('message', (message) => {
