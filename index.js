@@ -239,7 +239,7 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == '++except'){
-        var text = "I rate that EXCEPT likes ass " + Math.floor((Math.random() * 100) + 1) + "% <:demonetized:406094437236867072>";
+        var text = "I rate that EXCEPT likes ass " + Math.floor((Math.random() * 100) + 1) + "% <a:eggplantmmmm:429475848110866433>";
         message.channel.send({embed: {
         color: 15844367,
         description: text
