@@ -418,7 +418,7 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == '++meme'){
-        var meme = Math.floor((Math.random() * 11) + 2);
+        var meme = Math.floor((Math.random() * 11) + 1);
        
       
       
@@ -482,7 +482,7 @@ bot.on('message', (message) => {
 }      
       
       
-            if (meme == 8) {
+            if (meme == 11) {
    message.channel.send("Here, take a susan meme:", {
             file: "https://cdn.discordapp.com/attachments/387281775996698646/434786708752433161/PhotoWarp__2018-04-14_19-46-56.gif" 
              });
