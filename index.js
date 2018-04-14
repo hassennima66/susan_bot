@@ -239,7 +239,7 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == '++except'){
-        var text = "I rate that EXCEPT likes ass " + Math.floor((Math.random() * 100) + 1) + "% <:eggplantmmmm:429475848110866433>";
+        var text = "I rate that EXCEPT likes ass " + Math.floor((Math.random() * 100) + 1) + "% <a:discordbutt:429416320526974987>";
         message.channel.send({embed: {
         color: 15844367,
         description: text
