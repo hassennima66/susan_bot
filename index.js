@@ -568,10 +568,7 @@ bot.on('message', (message) => {
             .catch(() => {
                 message.channel.send("There was no response in 30 seconds, you have been demonetised anyway mate!!! <:demonetized:406094437236867072> :point_right: :joy: :point_right:<:demonetized:406094437236867072> ");
             });
-        });       
-}
-    });
-});   
+        });        
     }
 });
 
