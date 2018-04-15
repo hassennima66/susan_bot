@@ -3,6 +3,53 @@ const bot = new Discord.Client();
 
 
 
+
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+
+
+var http = require("http");
+setInterval(function() {
+    http.get("http://susan-bot.herokuapp.com");
+}, 300000); // every 5 minutes (300000)
+
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+/// KEEP BOT ONLINE
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 var mysql = require('mysql');
 
