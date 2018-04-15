@@ -571,35 +571,7 @@ bot.on('message', (message) => {
 });   
     }
 });
-bot.on('message', (message) => {
-    if(message.content == '++demonetiseme'){
-          message.channel.send({embed: {
-        color: 15844367,
-        description: "Would you like to be demonetised?"
-}})
-.then(() => {
-  message.channel.awaitMessages(response => response.content.toLowerCase() === 'no', {
-    max: 1,
-    time: 30000,
-    errors: ['time'],
-  })
-  .then((collected) => {
-     // message.channel.send(`You have been demonetised as your response message was: ${collected.first().content}`);
-          message.channel.send({embed: {
-        color: 15844367,
-        description: "You have been demonetised anyway, congratulations! <:demonetized:406094437236867072> :joy: "
-}})      
-    })
-    .catch(() => {
-         message.channel.send({embed: {
-        color: 15844367,
-        description: "There was no response in 30 seconds, you have been demonetised anyway mate!!! <:demonetized:406094437236867072> :point_right: :joy: :point_right:<:demonetized:406094437236867072> "
-}})      
-   //   message.channel.send('There was no response in 30 seconds, you have been demonetised anyway mate!!!  :point_right: :joy: :point_right: ');
-    });
-});   
-    }
-});
+
 
 /*
 
