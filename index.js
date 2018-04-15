@@ -573,10 +573,6 @@ bot.on('message', (message) => {
         color: 15844367,
         description: "You have to choose Yes or No. Maybe is not an answer. <:whatamigonnado:409287809325727744> "
           }
-     if(message.content == 'maybe'){
-    max: 1,
-    time: 30000,
-    errors: ['time'],
 }}) 
 	  }     
     })
