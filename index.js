@@ -347,8 +347,7 @@ taggedmember1 = message.mentions.members.first();
 		message.channel.send({embed: {
         color: 15844367,
         description: text
-            .then(function (message) {
-              message.react("<:demonetized:406094437236867072>")
+		message.react("<:demonetized:406094437236867072>")
 }});
 
 }
