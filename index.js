@@ -556,13 +556,13 @@ bot.on('message', (message) => {
             })
             .then((collected) => {
                 if (collected.first().content == 'yes') {
-                    message.channel.send({embed: { ("You have been demonetised, congratulations! <:demonetized:406094437236867072> :joy: ");
+                    message.channel.send({embed: { "You have been demonetised, congratulations! <:demonetized:406094437236867072> :joy: ";
                 }
                 else if(collected.first().content == 'no') {
-                    message.channel.send({embed: { ("No is not acceptable as I am Susan so you have been demonetised anyway, congratulations! <:demonetized:406094437236867072> :joy: ");
+                    message.channel.send({embed: { "No is not acceptable as I am Susan so you have been demonetised anyway, congratulations! <:demonetized:406094437236867072> :joy: ";
                 }
                 else if(collected.first().content == 'maybe') {
-                    message.channel.send({embed: { ("You have to choose Yes or No. Maybe is not an answer. ");
+                    message.channel.send({embed: { "You have to choose Yes or No. Maybe is not an answer. ";
                 }
             })
             .catch(() => {
