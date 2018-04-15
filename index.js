@@ -574,7 +574,30 @@ bot.on('message', (message) => {
     time: 30000,
     errors: ['time'],
         color: 15844367,
-        description: "You have to choose Yes or No. Maybe is not an answer. <:whatamigonnado:409287809325727744> "	  
+        description: "You have to choose Yes or No. Maybe is not an answer. <:whatamigonnado:409287809325727744> "
+   }
+  .then((collected) => {
+     // message.channel.send(`You have been demonetised as your response message was: ${collected.first().content}`);
+      if (collected.first().content == 'yes') {
+		  message.channel.send({embed: {
+        color: 15844367,
+        description: "You have been demonetised, congratulations! <:demonetized:406094437236867072> :joy: "
+}})
+	  }
+	  else if(collected.first().content == 'no') {
+		  message.channel.send({embed: {
+        color: 15844367,
+        description: "No is not acceptable as I am Susan so you have been demonetised anyway, congratulations! <:demonetized:406094437236867072> :joy: "
+   })
+   
+}}) 
+	  }     
+    })
+    .catch(() => {
+         message.channel.send({embed: {
+        color: 15844367,
+        description: "There was no response in 30 seconds, you have been demonetised anyway mate!!! <:demonetized:406094437236867072> :point_right: :joy: :point_right:<:demonetized:406094437236867072> "
+}})      
 }}) 
 	  }     
     })
