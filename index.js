@@ -549,24 +549,27 @@ bot.on('message', (message) => {
         description: "Would you like to be demonetised?"
 }})
 .then(() => {
-  message.channel.awaitMessages(response => response.content.toLowerCase() === 'yes', {
-    max: 1,
-    time: 30000,
-    errors: ['time'],
-  })
-  .then((collected) => {
-     // message.channel.send(`You have been demonetised as your response message was: ${collected.first().content}`);
-          message.channel.send({embed: {
-        color: 15844367,
-        description: "You have been demonetised, congratulations! <:demonetized:406094437236867072> :joy: "
-}})      
-    })
-    .catch(() => {
-         message.channel.send({embed: {
-        color: 15844367,
-        description: "There was no response in 30 seconds, you have been demonetised anyway mate!!! <:demonetized:406094437236867072> :point_right: :joy: :point_right:<:demonetized:406094437236867072> "
-}})      
-   //   message.channel.send('There was no response in 30 seconds, you have been demonetised anyway mate!!!  :point_right: :joy: :point_right: ');
+            message.channel.awaitMessages(response => response.content.toLowerCase() == 'yes' || response.content == 'no' || response.content == 'maybe', {
+                max: 1,
+                time: 30000,
+                errors: ['time'],
+            })
+            .then((collected) => {
+                if (collected.first().content == 'yes') {
+                    message.channel.send(`You have been demonetised, congratulations! <:demonetized:406094437236867072> :joy:`);
+                }
+                else if(collected.first().content == 'no') {
+                    message.channel.send(`No is not acceptable as I am Susan so you have been demonetised anyway, congratulations! <:demonetized:406094437236867072> :joy:`);
+                }
+                else if(collected.first().content == 'maybe') {
+                    message.channel.send(`You have to choose Yes or No. Maybe is not an answer.`);
+                }
+            })
+            .catch(() => {
+                message.channel.send(`There was no response in 30 seconds, you have been demonetised anyway mate!!! <:demonetized:406094437236867072> :point_right: :joy: :point_right:<:demonetized:406094437236867072>`);
+            });
+        });       
+}
     });
 });   
     }
