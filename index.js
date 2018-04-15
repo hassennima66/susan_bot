@@ -337,7 +337,6 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if (message.content.indexOf("++demonetise") !=-1) {
-		message.react("406094437236867072");
 		 if (message.content.length > 14) {
 		
 //var taggedmember1 = message.mentions.members.first();
@@ -606,7 +605,6 @@ bot.on('message', (message) => {
      // message.channel.send(`You have been demonetised as your response message was: ${collected.first().content}`);
       if (collected.first().content == 'yes') {
 		  message.channel.send({embed: {
-            .then(function (message) {
         color: 15844367,
         description: "You have been demonetised, congratulations! <:demonetized:406094437236867072> :joy: "
 }})
