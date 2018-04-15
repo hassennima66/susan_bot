@@ -850,7 +850,7 @@ bot.on('message', function(message) {
 var http = require("http");
 setInterval(function() {
     bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers', 'https://www.twitch.tv/maybenima');
-}, 300000); // every 5 minutes (300000)
+}, 3000); // every 5 minutes (300000)
 
 //status = 'Demonetising ' + len(self.bot.servers) +  ' servers';
 bot.on('ready', () => { bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers', 'https://www.twitch.tv/maybenima') })
