@@ -561,16 +561,19 @@ bot.on('message', (message) => {
         color: 15844367,
         description: "You have been demonetised, congratulations! <:demonetized:406094437236867072> :joy: "
 }})
+	  }
 	  else if(collected.first().content == 'no') {
 		  message.channel.send({embed: {
         color: 15844367,
         description: "No is not acceptable as I am Susan so you have been demonetised anyway, congratulations! <:demonetized:406094437236867072> :joy: "
 }})
+	  }
 	  else if(collected.first().content == 'maybe') {
 		  message.channel.send({embed: {
         color: 15844367,
         description: "You have to choose Yes or No. Maybe is not an answer. <:whatamigonnado:409287809325727744> "	  
-}})      
+}}) 
+	  }     
     })
     .catch(() => {
          message.channel.send({embed: {
