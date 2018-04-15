@@ -338,13 +338,6 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
     if (message.content.indexOf("++demonetise") !=-1) {
 		 if (message.content.length > 14) {
-            .then(function (message) {
-              message.react("<:demonetized:406094437236867072>")
-              message.pin()
-              message.delete()
-            }).catch(function() {
-              //Something
-             });
 		
 //var taggedmember1 = message.mentions.members.first();
 var taggedmember1 = "someone";
@@ -352,6 +345,8 @@ taggedmember1 = message.mentions.members.first();
 
 		var text = "The chance that " + (taggedmember1) + "'s video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "% <:demonetized:406094437236867072>";
 		message.channel.send({embed: {
+            .then(function (message) {
+              message.react("<:demonetized:406094437236867072>")
         color: 15844367,
         description: text
 }});
