@@ -571,8 +571,7 @@ bot.on('message', (message) => {
 	  else if(collected.first().content == 'maybe') {
 		  message.channel.send({embed: {
         color: 15844367,
-        description: "You have to choose Yes or No. Maybe is not an answer. <:whatamigonnado:409287809325727744> "
-          }
+        description: "You have to choose Yes or No. Maybe is not an answer. <:whatamigonnado:409287809325727744> "	  
 }}) 
 	  }     
     })
