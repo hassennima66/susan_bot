@@ -337,7 +337,7 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if (message.content.indexOf("++demonetise") !=-1) {
-		message.react("406094437236867072")
+		message.react("406094437236867072");
 		 if (message.content.length > 14) {
 		
 //var taggedmember1 = message.mentions.members.first();
