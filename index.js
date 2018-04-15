@@ -556,17 +556,17 @@ bot.on('message', (message) => {
             })
             .then((collected) => {
                 if (collected.first().content == 'yes') {
-                    message.channel.send("You have been demonetised, congratulations! <:demonetized:406094437236867072> :joy: ");
+                    message.channel.send "You have been demonetised, congratulations! <:demonetized:406094437236867072> :joy: "
                 }
                 else if(collected.first().content == 'no') {
-                    message.channel.send("No is not acceptable as I am Susan so you have been demonetised anyway, congratulations! <:demonetized:406094437236867072> :joy: ");
+                    message.channel.send "No is not acceptable as I am Susan so you have been demonetised anyway, congratulations! <:demonetized:406094437236867072> :joy: "
                 }
                 else if(collected.first().content == 'maybe') {
-                    message.channel.send("You have to choose Yes or No. Maybe is not an answer. ");
+                    message.channel.send "You have to choose Yes or No. Maybe is not an answer. "
                 }
             })
             .catch(() => {
-                message.channel.send("There was no response in 30 seconds, you have been demonetised anyway mate!!! <:demonetized:406094437236867072> :point_right: :joy: :point_right:<:demonetized:406094437236867072> ");
+                message.channel.send "There was no response in 30 seconds, you have been demonetised anyway mate!!! <:demonetized:406094437236867072> :point_right: :joy: :point_right:<:demonetized:406094437236867072> "
             });
         });        
     }
