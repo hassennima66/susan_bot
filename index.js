@@ -297,7 +297,6 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == '++gay'){
-       message.react(":gay_pride_flag:")
         var text = "You are " + Math.floor((Math.random() * 100) + 1) + "% gay :gay_pride_flag:";
         message.channel.send({embed: {
         color: 15844367,
@@ -362,7 +361,7 @@ taggedmember1 = message.mentions.members.first();
 
 bot.on('message', (message) => {
     if (message.content.indexOf("++gay") !=-1) {
-	message.react(":gay_pride_flag:")
+	message.react("🏳️‍🌈")
 		 if (message.content.length > 14) {
 		
 //var taggedmember1 = message.mentions.members.first();
