@@ -297,6 +297,7 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == '++gay'){
+       message.react(":gay_pride_flag:")
         var text = "You are " + Math.floor((Math.random() * 100) + 1) + "% gay :gay_pride_flag:";
         message.channel.send({embed: {
         color: 15844367,
