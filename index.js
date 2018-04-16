@@ -223,13 +223,6 @@ bot.on('message', (message) => {
 
 
 bot.on('message', (message) => {
-    if(message.content == '++rob'){
-        message.reply('pls rob @Flater#0420');   
-    }
-});
-
-
-bot.on('message', (message) => {
     if(message.content == 'Hi'){
         message.reply('Demonetised!');   
     }
