@@ -141,7 +141,7 @@ bot.on("message", message => {
 
 
 // PING
-client.on('message', message => {
+bot.on('message', message => {
     if(message.content.startsWith("++ping")) {
             message.channel.send(new Date().getTime() - message.createdTimestamp + " ms");        
     }
