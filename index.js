@@ -140,14 +140,6 @@ bot.on("message", message => {
 
 
 
-// PING
-bot.on('message', message => {
-    if(message.content.startsWith("++ping")) {
-            message.channel.send(new Date().getTime() - message.createdTimestamp + " ms");        
-    }
-}
-
-
 bot.on("guildCreate", (guild) => {
 	message.channel.send({embed: {
         color: 15844367,
