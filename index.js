@@ -369,7 +369,8 @@ bot.on('message', (message) => {
 var taggedmember1 = "someone";
 taggedmember1 = message.mentions.members.first();
 
-		var text = taggedmember1 + " is " + Math.floor((Math.random() * 100) + 1) + "% gay :gay_pride_flag:";
+	    var text = taggedmember1 + " is " + Math.floor((Math.random() * 100) + 1) + "% gay :gay_pride_flag:";
+		
 		message.channel.send({embed: {
         color: 15844367,
         description: text
