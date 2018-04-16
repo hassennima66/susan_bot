@@ -361,6 +361,7 @@ taggedmember1 = message.mentions.members.first();
 
 bot.on('message', (message) => {
     if (message.content.indexOf("++gay") !=-1) {
+	message.react(":gay_pride_flag:")
 		 if (message.content.length > 14) {
 		
 //var taggedmember1 = message.mentions.members.first();
