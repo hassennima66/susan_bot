@@ -840,7 +840,7 @@ bot.on('message', function(message) {
     if (message.content === "++updateservercount") { 
         var interval = setInterval (function () {
             // use the message's channel (TextChannel) to send a new message
-            bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers', 'https://www.twitch.tv/maybenima')
+            bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers/' + Members.Count + ' members', 'https://www.twitch.tv/maybenima')
             .catch(console.error); // add error handling here
         }, 1 * 1000); 
     }
