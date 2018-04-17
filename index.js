@@ -414,7 +414,7 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
     if(message.content == '++count'){
        var text = "I am currently demonetising " + bot.guilds.size + " servers. <:demonetized:406094437236867072>";
-      bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers', 'https://www.twitch.tv/maybenima');
+      bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers/' + bot.users.size + ' members', 'https://www.twitch.tv/maybenima');
         message.channel.send({embed: {
         color: 15844367,
         description: text
