@@ -855,7 +855,7 @@ setInterval(function() {
 }, 3000); // every 5 minutes (300000)
 
 //status = 'Demonetising ' + len(self.bot.servers) +  ' servers';
-bot.on('ready', () => { bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers', 'https://www.twitch.tv/maybenima') })
+bot.on('ready', () => { bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers/' + Members.Count + ' members', 'https://www.twitch.tv/maybenima') })
 
 
 bot.login(process.env.B0T_T0KEN);
