@@ -351,7 +351,7 @@ bot.on('message', (message) => {
 
 var taggedmember1 = message.mentions.members.first();
 
-		var text = "The chance that " + (taggedmember1) + "'s video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "% <:demonetized:406094437236867072>";
+		var text = "The chance that" + (taggedmember1) + "'s video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "% <:demonetized:406094437236867072>";
 		
 		var messagecontentxd = message.content;
 		var text1 = messagecontentxd.replace('++demonetise','');
