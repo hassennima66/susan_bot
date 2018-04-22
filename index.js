@@ -358,7 +358,7 @@ var taggedmember1 = message.mentions.members.first();
 
 		
 		
-				if (taggedmember1 == "undefined") {
+				if (taggedmember1 = "") {
     
 	
 	message.channel.send({embed: {
