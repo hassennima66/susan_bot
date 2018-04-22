@@ -355,6 +355,7 @@ var taggedmember1 = message.mentions.members.first();
 		
 		var messagecontentxd = message.content;
 		var text1 = messagecontentxd.replace('++demonetise','');
+		var textD = "The chance that " + (text1) + "'s video will be demonetised is " + Math.floor((Math.random() * 100) + 1) + "% <:demonetized:406094437236867072>";
 
 		
 		
@@ -363,7 +364,7 @@ var taggedmember1 = message.mentions.members.first();
 	
 	message.channel.send({embed: {
         color: 15844367,
-        description: text1
+        description: textD
 }});
 	
 	
