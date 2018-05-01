@@ -900,7 +900,7 @@ bot.on('message', (message) => {
       },
       {
         "name": "**Others:**",
-        "value": "Hi/hi/Hello/hello, susan what are you doing right now?, ++meme, ++invite, ++count, ++info, ++help, ++tyrone, ++gay, ++fuckrate "
+        "value": "Hi/hi/Hello/hello, susan what are you doing right now?, ++meme, ++invite, ++count, ++info, ++help, ++tyrone, ++gay, ++fuckrate, ++fucked "
       },
       {
         "name": "**Youtube Links**",
