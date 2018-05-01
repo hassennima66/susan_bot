@@ -313,15 +313,7 @@ bot.on('message', (message) => {
         color: 15844367,
         description: text
 }});
-   
-   
-} 
-			 
-		
-
-
-}
-}
+    }
 });
 
 
@@ -360,8 +352,9 @@ bot.on('message', (message) => {
 
 
 
+
 bot.on('message', (message) => {
-    if (message.content.indexOf("++demonetise @") !=-1) {
+    if (message.content.indexOf("++demonetise ") !=-1) {
 	message.react("406094437236867072")	 
 	    if (message.content.length > 14) {
 		
