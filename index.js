@@ -353,8 +353,7 @@ bot.on('message', (message) => {
 
 
 bot.on('message', (message) => {
-    if (message.content.indexOf("++fuckrate ") !=-1) {
-	message.react("406094437236867072")	 
+    if (message.content.indexOf("++fuckrate ") !=-1) {	 
 	    if (message.content.length > 14) {
 		
 //var taggedmember1 = message.mentions.members.first();
@@ -385,32 +384,8 @@ var taggedmember1 = message.mentions.members.first();
         color: 15844367,
         description: text
 }});
-   
-   
-} 
-			 
-		
-
-
-}
-}
+    }
 });
-
-
-
-
-
-/////////END HERE
-
-
-
-*/
-
-
-/////////START HERE
-
-
-
 
 
 bot.on('message', (message) => {
