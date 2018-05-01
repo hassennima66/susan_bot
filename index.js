@@ -302,7 +302,15 @@ bot.on('message', (message) => {
         color: 15844367,
         description: text
 }});
-    }
+   
+   
+} 
+			 
+		
+
+
+}
+}
 });
 
 
