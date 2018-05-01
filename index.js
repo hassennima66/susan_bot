@@ -364,7 +364,7 @@ var taggedmember1 = message.mentions.members.first();
 		var text = (taggedmember1) + " is  " + Math.floor((Math.random() * 100) + 1) + "% fuckable.";
 		
 		var messagecontentxd = message.content;
-		var text1 = messagecontentxd.replace('++fuckrate ','');
+		var text1 = messagecontentxd.replace('++demonetise ','');
 		var textD = (text1) + " is " + Math.floor((Math.random() * 100) + 1) + "% fuckable.";
 
 		
