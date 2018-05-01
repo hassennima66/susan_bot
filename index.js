@@ -360,43 +360,6 @@ bot.on('message', (message) => {
 
 
 
-
-bot.on('message', (message) => {
-    if (message.content.indexOf("++fuckrate ") !=-1) {	 
-	    if (message.content.length > 14) {
-		
-//var taggedmember1 = message.mentions.members.first();
-
-var taggedmember1 = message.mentions.members.first();
-
-		var text = (taggedmember1) + " is  " + Math.floor((Math.random() * 100) + 1) + "% fuckable";
-		
-		var messagecontentxd = message.content;
-		var text1 = messagecontentxd.replace('++fuckrate ','');
-		var textD = (text1) + " is " + Math.floor((Math.random() * 100) + 1) + "% fuckable";
-
-		
-		
-				if (taggedmember1 = "undefined") {
-    
-	
-	message.channel.send({embed: {
-        color: 15844367,
-        description: textD
-}});
-	
-	
-} else {
-   
-   
-   message.channel.send({embed: {
-        color: 15844367,
-        description: text
-}});
-    }
-});
-
-
 bot.on('message', (message) => {
     if (message.content.indexOf("++demonetise ") !=-1) {
 	message.react("406094437236867072")	 
