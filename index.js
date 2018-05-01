@@ -469,6 +469,68 @@ var taggedmember1 = message.mentions.members.first();
 
 
 
+/////////START HERE
+
+
+
+
+
+bot.on('message', (message) => {
+    if (message.content.indexOf("++fucked ") !=-1) {	 
+	    if (message.content.length > 14) {
+		
+//var taggedmember1 = message.mentions.members.first();
+
+var taggedmember1 = message.mentions.members.first();
+
+		var text = (taggedmember1) + " is " + Math.floor((Math.random() * 100) + 1) + "% fucked.";
+		
+		var messagecontentxd = message.content;
+		var text1 = messagecontentxd.replace('++fucked ','');
+		var textD = (text1) + " is " + Math.floor((Math.random() * 100) + 1) + "% fucked.";
+
+		
+		
+				if (taggedmember1 = "undefined") {
+    
+	
+	message.channel.send({embed: {
+        color: 15844367,
+        description: textD
+}});
+	
+	
+} else {
+   
+   
+   message.channel.send({embed: {
+        color: 15844367,
+        description: text
+}});
+   
+   
+} 
+			 
+		
+
+
+}
+}
+});
+
+
+
+
+
+
+
+
+/////////END HERE
+
+
+
+
+
 
 bot.on('message', (message) => {
     if (message.content.indexOf("++gay") !=-1) {
