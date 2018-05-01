@@ -838,7 +838,7 @@ bot.on('message', (message) => {
       },
       {
         "name": "**Others:**",
-        "value": "Hi/hi/Hello/hello, susan what are you doing right now?, ++meme, ++invite, ++count, ++info, ++help, ++tyrone, ++gay "
+        "value": "Hi/hi/Hello/hello, susan what are you doing right now?, ++meme, ++invite, ++count, ++info, ++help, ++tyrone, ++gay, ++fuckrate "
       },
       {
         "name": "**Youtube Links**",
