@@ -340,7 +340,7 @@ bot.on('message', (message) => {
         description: text
 }});
     }
-})
+});
 
 
 */
