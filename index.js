@@ -969,4 +969,4 @@ setInterval(function() {
 bot.on('ready', () => { bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers/' + bot.users.size + ' members', 'https://www.twitch.tv/maybenima') })
 
 
-bot.login(process.env.B0T_T0KEN);
+bot.login(process.env.token);
