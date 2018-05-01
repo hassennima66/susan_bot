@@ -469,9 +469,8 @@ var taggedmember1 = message.mentions.members.first();
 
 
 
-const { Command } = require('++choice');
-
-module.exports = class extends Command {
+bot.on('message', (message) => {
+    if(message.content == '++choice'){
 
 	constructor(...args) {
 		super(...args, {
