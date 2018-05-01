@@ -334,13 +334,13 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == '++fuckrate'){
-        var text = "You are " + Math.floor((Math.random() * 100) + 1) + "% fuckable";
+        var text = "You are " + Math.floor((Math.random() * 100) + 1) + "% fuckable.";
         message.channel.send({embed: {
         color: 15844367,
         description: text
 }});
     }
-})
+});
 
 
 */
@@ -361,11 +361,11 @@ bot.on('message', (message) => {
 
 var taggedmember1 = message.mentions.members.first();
 
-		var text = (taggedmember1) + " is  " + Math.floor((Math.random() * 100) + 1) + "% fuckable";
+		var text = (taggedmember1) + " is  " + Math.floor((Math.random() * 100) + 1) + "% fuckable.";
 		
 		var messagecontentxd = message.content;
 		var text1 = messagecontentxd.replace('++demonetise ','');
-		var textD = (text1) + " is " + Math.floor((Math.random() * 100) + 1) + "% fuckable";
+		var textD = (text1) + " is " + Math.floor((Math.random() * 100) + 1) + "% fuckable.";
 
 		
 		
