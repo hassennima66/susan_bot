@@ -653,7 +653,7 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == '++meme'){
-        var meme = Math.floor((Math.random() * 12) + 1);
+        var meme = Math.floor((Math.random() * 13) + 1);
        
       
       
@@ -721,10 +721,17 @@ bot.on('message', (message) => {
    message.channel.send("Here, take a susan meme:", {
             file: "https://cdn.discordapp.com/attachments/387281775996698646/434786708752433161/PhotoWarp__2018-04-14_19-46-56.gif" 
              });
-}    
+}  
       
       
             if (meme == 12) {
+   message.channel.send("Here, take a susan meme:", {
+            file: "https://pbs.twimg.com/media/DcOh2r8X4AE8Oiq.jpg" 
+             });
+} 
+      
+      
+            if (meme == 13) {
    message.channel.send("Here, take a susan meme:", {
             file: "https://i.imgur.com/DZWjciC.png" 
              });
