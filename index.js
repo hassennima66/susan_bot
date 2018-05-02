@@ -642,7 +642,7 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == '++meme'){
-        var meme = Math.floor((Math.random() * 11) + 1);
+        var meme = Math.floor((Math.random() * 12) + 1);
        
       
       
@@ -712,6 +712,12 @@ bot.on('message', (message) => {
              });
 }    
       
+      
+            if (meme == 12) {
+   message.channel.send("Here, take a susan meme:", {
+            file: "https://i.imgur.com/DZWjciC.png" 
+             });
+}          
       
     }
 });
