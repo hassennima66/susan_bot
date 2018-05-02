@@ -296,6 +296,17 @@ bot.on('message', (message) => {
 
 
 bot.on('message', (message) => {
+    if(message.content == '++fucked'){
+        var text = "You are " + Math.floor((Math.random() * 100) + 1) + "% fucked.";
+        message.channel.send({embed: {
+        color: 15844367,
+        description: text
+}});
+    }
+});
+
+
+bot.on('message', (message) => {
     if(message.content == '++except'){
         var text = "I rate that EXCEPT likes ass " + Math.floor((Math.random() * 100) + 1) + "% <a:butt:434505774866235403>";
         message.channel.send({embed: {
