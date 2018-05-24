@@ -260,7 +260,7 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
     if(message.content == 'Susan what are you doing right now?'){
-        message.reply('Hi, I am currently on Twitch removing all of Ninjas paid subscribers and removing ads from all of his streams, hopefully soon we will hear gun shots at Twitch HQ.');   
+        message.reply('I am currently experimenting with how to show content in the subs feed. We find that some viewers are able to more easily find the videos they want to watch when we order the subs feed in a personalized order vs always showing most recent video first.');   
     }
 });
 //
