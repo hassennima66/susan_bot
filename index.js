@@ -2,8 +2,6 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 
-var userRepository = require(“coins.js”);
-
 
 /// KEEP BOT ONLINE
 /// KEEP BOT ONLINE
