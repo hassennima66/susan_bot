@@ -2,7 +2,8 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 
-
+var fs = require('fs');
+eval(fs.readFileSync('coins.js')+'');
 
 /// KEEP BOT ONLINE
 /// KEEP BOT ONLINE
