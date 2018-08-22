@@ -1043,6 +1043,18 @@ bot.on('message', function(message) {
     }
 });   
 
+
+
+
+
+var http = require("http");
+setInterval(function() {
+    bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers/' + bot.users.size + ' members', 'https://www.twitch.tv/maybenima');
+}, 3000); // every 5 minutes (300000)
+
+//status = 'Demonetising ' + len(self.bot.servers) +  ' servers';
+bot.on('ready', () => { bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers/' + bot.users.size + ' members', 'https://www.twitch.tv/maybenima') })
+
 client.on('message', (message) => {
   const args = message.content.split(" ").slice(1);
 	
@@ -1068,17 +1080,6 @@ function clean(text) {
   else
       return text;
 }
-
-
-
-
-var http = require("http");
-setInterval(function() {
-    bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers/' + bot.users.size + ' members', 'https://www.twitch.tv/maybenima');
-}, 3000); // every 5 minutes (300000)
-
-//status = 'Demonetising ' + len(self.bot.servers) +  ' servers';
-bot.on('ready', () => { bot.user.setActivity('Demonetising ' +  bot.guilds.size + ' servers/' + bot.users.size + ' members', 'https://www.twitch.tv/maybenima') })
 
 
 bot.login(process.env.B0T_T0KEN);
