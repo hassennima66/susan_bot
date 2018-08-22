@@ -1059,7 +1059,7 @@ bot.on('message', (message) => {
   const args = message.content.split(" ").slice(1);
 	
     if (message.content.startsWith("++eval")) {
-    if(message.author.id !== "136191833196855296" or message.author.id !== "275604639179603969" ) return;
+    if(message.author.id !== config.ownerID) return;
     try {
       const code = args.join(" ");
       let evaled = eval(code);
