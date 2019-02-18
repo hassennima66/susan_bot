@@ -1083,4 +1083,31 @@ function clean(text) {
 }
 
 
+
+
+
+
+
+
+
+
+bot.on('message', (message) => {
+    if(message.content == '++test'){
+        var text = Math.floor((Math.random() * 100) + 1);
+        message.channel.send({embed: {
+        color: 15844367,
+        description: text
+}});
+    }
+});
+
+
+
+
+
+
+
+
+
+
 bot.login(process.env.B0T_T0KEN);
